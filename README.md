@@ -7,7 +7,7 @@ El siguiente proyecto tiene como objetivo calcular la mayor cantidad de informac
 •	Podemos iniciar con el botón de información para ver detalles relacionados al tema del que se está hablando y algunos datos interesantes acerca de las longitudes de onda.
 ![image](https://user-images.githubusercontent.com/29785115/48922526-ec1cf700-ee6c-11e8-956f-fb5121404e21.png)
 
-•	Después podremos hacer clic en el botón de equipo el cual nos mostrará la fecha de creación del proyecto y los integrantes del equipo. 
+•	Después podremos hacer clic en el botón de equipo el cual nos mostrará la fecha de creación del proyecto y los integrantes del equipo.
 ![image](https://user-images.githubusercontent.com/29785115/48922530-f2ab6e80-ee6c-11e8-8953-f2eee9d1e82d.png)
 
 •	Al cliquear en Simulador nos abrirá la calculadora. La entrada de todo el sistema solamente es la longitud de onda y el ángulo de dispersión del fotón para poder obtener toda la información que resultará de estos.
