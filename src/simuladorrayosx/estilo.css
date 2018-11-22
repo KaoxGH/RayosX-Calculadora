@@ -1,0 +1,95 @@
+.fondo{
+    -fx-background-image: url("rayosx.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+.fondoFormulas{
+    -fx-background-image: url("formulas.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+.fondoEjercicio1{
+    -fx-background-image: url("Ejercicio1.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+.fondoEjercicio2{
+    -fx-background-image: url("Ejercicio2.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+.efectocompton{
+    -fx-background-image: url("efectocompton.png");
+}
+.imagenSP1{
+    -fx-background-image: url("fime.png");
+    -fx-background-size: 150 200;
+}
+.imagenSP2{
+    -fx-background-image: url("uanl.png");
+    -fx-background-size: 180 200;
+}
+.gifRayosX{
+    -fx-background-image: url("rayosx.gif");
+}
+.bomba{
+    -fx-background-image: url("bomba.gif");
+    -fx-background-size: 68 51;
+}
+.espectro{
+    -fx-background-image: url("espectro.png");
+    -fx-background-size: 587 194;
+}
+.botonesIndex{
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-border-insets: 0;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(gaussian,black,3,0.5,2,2);
+}
+.problemas{
+    -fx-background-color: linear-gradient(#36d117, #42ff1d);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-insets: 0;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(gaussian,black,3,0.5,2,2);
+}
+.salir{
+    -fx-background-color: linear-gradient(#395cab, #223768);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-border-insets: 0;
+    -fx-border-radius: 30;
+    -fx-effect: dropshadow(gaussian,black,3,0.5,2,2);
+}
+.salir:hover, .botonesIndex:hover {
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    
+}
+
+.problemas:hover{
+    -fx-background-color: linear-gradient(#37ff0f, #219d08);
+}
+/*.salir:focused, .botonesIndex:focused{
+    /*-fx-focus-color: transparent;
+    -fx-background-insets: -1.4, 0, 1, 2;
+    
+    
+.salir:focused:hover {
+    -fx-background-color:
+        #0093EF,
+        #FFFFFF;
+}*/

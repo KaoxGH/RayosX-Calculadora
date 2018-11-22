@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="fondoEjercicio1" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simuladorrayosx.FXMLDocumentController">
+    <stylesheets>
+        <URL value="@estilo.css" />
+    </stylesheets>
+   <children>
+      <TextField fx:id="Dato1" layoutX="237.0" layoutY="14.0" prefHeight="25.0" prefWidth="102.0" />
+      <TextField fx:id="Dato2" layoutX="453.0" layoutY="54.0" prefHeight="25.0" prefWidth="102.0" />
+      <Button fx:id="botonResolver1" layoutX="610.0" layoutY="147.0" mnemonicParsing="false" onAction="#Resolver1" text="Resolver" />
+      <TextField fx:id="respuesta1" editable="false" layoutX="605.0" layoutY="347.0" prefHeight="25.0" prefWidth="68.0" />
+      <TextField fx:id="respuesta2" editable="false" layoutX="710.0" layoutY="418.0" prefHeight="25.0" prefWidth="68.0" />
+      <TextField fx:id="respuesta3" editable="false" layoutX="227.0" layoutY="525.0" prefHeight="25.0" prefWidth="68.0" />
+      <Button fx:id="btnVolverASIM" alignment="BOTTOM_LEFT" layoutX="14.0" layoutY="564.0" mnemonicParsing="false" onAction="#handleButtonAction" stylesheets="@estilo.css" text="Volver">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="l1" alignment="CENTER" editable="false" layoutX="296.0" layoutY="347.0" prefHeight="25.0" prefWidth="61.0" />
+      <TextField fx:id="l2" alignment="CENTER" editable="false" layoutX="443.0" layoutY="347.0" prefHeight="25.0" prefWidth="78.0" />
+      <TextField fx:id="l4" alignment="CENTER" layoutX="61.0" layoutY="452.0" prefHeight="25.0" prefWidth="61.0" />
+      <TextField fx:id="l5" editable="false" layoutX="122.0" layoutY="452.0" prefHeight="25.0" prefWidth="61.0" />
+      <TextField fx:id="l6" alignment="CENTER" editable="false" layoutX="256.0" layoutY="452.0" prefHeight="25.0" prefWidth="140.0" />
+      <TextField fx:id="l7" editable="false" layoutX="500.0" layoutY="452.0" prefHeight="25.0" prefWidth="140.0" />
+      <TextField fx:id="l8" alignment="CENTER" editable="false" layoutX="98.0" layoutY="552.0" prefHeight="25.0" prefWidth="61.0" />
+   </children>
+</AnchorPane>

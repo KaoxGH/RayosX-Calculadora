@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" styleClass="fondo" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simuladorrayosx.FXMLDocumentController">
+   <children>
+      <Text fill="WHITE" layoutX="219.0" layoutY="105.0" stroke="#2c2929" strokeType="OUTSIDE" strokeWidth="2.0" styleClass="textotrazo" text="Rayos X">
+         <font>
+            <Font name="Lucida Sans Regular" size="96.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn1" alignment="CENTER" layoutX="275.0" layoutY="177.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="55.0" prefWidth="250.0" styleClass="botonesIndex" text="Simulador" textAlignment="CENTER" AnchorPane.leftAnchor="275.0">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" alignment="CENTER" layoutX="275.0" layoutY="245.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="55.0" prefWidth="250.0" text="Información" styleClass="botonesIndex">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font></Button>
+      <Button fx:id="btn3" alignment="CENTER" layoutX="275.0" layoutY="316.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="55.0" prefWidth="250.0" text="Equipo" styleClass="botonesIndex">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font></Button>
+      <Button fx:id="btnCerrar" alignment="CENTER" layoutX="275.0" layoutY="449.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" prefHeight="55.0" prefWidth="250.0" text="Salir" styleClass="salir" >
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Button>
+      <StackPane layoutX="30.0" layoutY="14.0" prefHeight="159.0" prefWidth="150.0" styleClass="imagenSP1" stylesheets="@estilo.css" />
+      <StackPane layoutX="615.0" layoutY="14.0" prefHeight="137.0" prefWidth="171.0" styleClass="imagenSP2" stylesheets="@estilo.css" />
+   </children>
+</AnchorPane>

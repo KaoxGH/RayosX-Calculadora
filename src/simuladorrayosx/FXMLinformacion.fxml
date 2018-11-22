@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simuladorrayosx.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnVolver" alignment="BOTTOM_LEFT" layoutX="14.0" layoutY="561.0" mnemonicParsing="false" onAction="#handleButtonAction" stylesheets="@estilo.css" text="Volver">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Button>
+      <Label text="Información" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="58.0" />
+         </font>
+      </Label>
+      <StackPane layoutX="670.0" layoutY="183.0" prefHeight="106.0" prefWidth="83.0" styleClass="gifRayosX" stylesheets="@estilo.css" />
+      <TextFlow layoutX="41.0" layoutY="106.0" prefHeight="265.0" prefWidth="615.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="En 1895, Wilhelm Conrad Röntgen (1845-1923), científico alemán, descubrió una radiación (de origen desconocido en aquel momento, y de ahí su nombre de rayos X) que tenía la propiedad de penetrar los cuerpos opacos.&#10;&#10;Los rayos X son invisibles a nuestros ojos, pero producen imágenes visibles cuando usamos placas fotográficas o detectores especiales para ello...&#10;De casi todos son conocidas las aplicaciones de los rayos X en el campo de la Medicina para realizar radiografías, angiografías o las llamadas tomografías computarizadas. Y el uso de los rayos X se ha extendido también a la detección de fallos en metales o análisis de pinturas.&#10;&#10;Los rayos X son radiaciones electromagnéticas, como lo es la luz visible, o las radiaciones ultravioleta e infrarroja, y lo único que los distingue de las demás radiaciones electromagnéticas es su llamada longitud de onda, que es del orden de 10-10 m (equivalente a la unidad de longitud que conocemos como Angstrom).">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+      <Text layoutX="194.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Qué son los rayos X?">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#617eb0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+         <font>
+            <Font name="Calibri" size="35.0" />
+         </font>
+      </Text>
+      <StackPane layoutX="83.0" layoutY="371.0" prefHeight="194.0" prefWidth="587.0" styleClass="espectro" stylesheets="@estilo.css" />
+      <Label layoutX="410.0" layoutY="576.0" text="Fuente: http://www.xtal.iqfr.csic.es/Cristalografia/parte_02.html" textFill="WHITE" />
+   </children>
+</AnchorPane>

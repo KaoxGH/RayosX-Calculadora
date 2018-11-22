@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Box?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simuladorrayosx.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnVolver" alignment="BOTTOM_LEFT" layoutX="14.0" layoutY="561.0" mnemonicParsing="false" onAction="#handleButtonAction" stylesheets="@estilo.css" text="Volver">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Button>
+      <Label text="Equipo #5" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="58.0" />
+         </font>
+      </Label>
+      <Box depth="40.0" height="0.0" layoutX="212.0" layoutY="224.0" rotate="-55.3" width="40.0" />
+      <Text layoutX="110.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Universidad Autónoma de Nuevo León" textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="38.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#fff532" />
+                  <Stop color="#cd9921" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text fill="#59c339" layoutX="164.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Facultad de Ingeniería Mecánica y Eléctrica">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Text>
+      <Separator layoutX="107.0" layoutY="170.0" prefHeight="0.0" prefWidth="581.0" />
+      <Text fill="#3a84f2" layoutX="260.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Física IV: Simulador de Rayos X">
+         <font>
+            <Font name="Calibri" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="322.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Integrantes:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <TextFlow layoutX="100.0" layoutY="215.0" prefHeight="53.0" prefWidth="596.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Profesor: Jorge Enrique Figueroa Martínez&#10;" wrappingWidth="377.0830078125">
+               <font>
+                  <Font name="Calibri" size="22.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Hora: M4 (Jueves) &#9;&#9;Salón: 1103&#9;&#9;&#9; Grupo: 012" textAlignment="JUSTIFY" wrappingWidth="478.5029296875">
+               <font>
+                  <Font name="Calibri" size="22.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+      <TextFlow layoutX="97.0" layoutY="315.0" prefHeight="166.0" prefWidth="99.0" style="-fx-border-color: white;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Matrícula:&#10;1624294&#10;1628190&#10;1522408&#10;1630529&#10;1626006" wrappingWidth="86.62109375">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+      <TextFlow layoutX="196.0" layoutY="315.0" prefHeight="164.0" prefWidth="507.0" style="-fx-border-color: white; -fx-padding: 2;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre:&#10;Jorge Andrés Hernández Rojas&#10;Angel Iván Martínez Serna&#10;Elías Gerardo Moreno Morales&#10;Marco Antonio Contreras Arévalo &#10;Jesús Alejandro Gonzáles Martínez ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children></TextFlow>
+      <Text fill="WHITE" layoutX="97.0" layoutY="497.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A 02 de mayo de 2016, San Nicolás de los Garza, Nuevo León, México. ">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="500.0" layoutY="566.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Programado por: [ITS] Jorge Andrés. &#10;Correo electrónico: jorge16andres@gmail.com">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
