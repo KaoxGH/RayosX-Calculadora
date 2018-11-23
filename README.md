@@ -1,5 +1,5 @@
 # RayosX-Calculadora
-El siguiente proyecto tiene como objetivo calcular la mayor cantidad de información posible teniendo como entrada solamente la longitud de onda y el ángulo de dispersión de un fotón.
+El siguiente proyecto tiene como objetivo calcular el estado final de un fotón, teniendo solamente como datos de entrada la longitud de onda inicial y el ángulo de dispersión de este.
 
 Al iniciar la aplicación nos encontramos con la interfaz principal.
 
@@ -13,7 +13,7 @@ Después podremos hacer clic en el botón de equipo el cual nos mostrará la fec
 
 ![image](https://user-images.githubusercontent.com/29785115/48926232-af172b80-ee91-11e8-9ab9-6ec17728f4b1.png)
 
-Al cliquear en Simulador nos abrirá la calculadora. La entrada de todo el sistema solamente es la longitud de onda y el ángulo de dispersión del fotón para poder obtener toda la información que resultará de estos.
+Al cliquear en Simulador nos abrirá la calculadora. La entrada de todo el sistema solamente es la longitud de onda y el ángulo de dispersión del fotón para poder obtener su longitud de onda final, sus frecuencias, su cantidad de movimiento, etc...
 
 ![image](https://user-images.githubusercontent.com/29785115/48926238-b5a5a300-ee91-11e8-9130-5297c4247e72.png)
 
@@ -21,6 +21,6 @@ También tiene dos ejercicios integrados que pueden ser utilizados como ejemplos
 
 ![image](https://user-images.githubusercontent.com/29785115/48926243-bd654780-ee91-11e8-8a0e-642604e58cbb.png)
 
-Y las fórmulas también forman parte del proyecto para poderlas tener a la mano.
+Las fórmulas también forman parte del proyecto.
 
 ![image](https://user-images.githubusercontent.com/29785115/48926247-c524ec00-ee91-11e8-8cf6-136545809bc5.png)
