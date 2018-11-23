@@ -1,20 +1,26 @@
 # RayosX-Calculadora
 El siguiente proyecto tiene como objetivo calcular la mayor cantidad de información posible teniendo como entrada solamente la longitud de onda y el ángulo de dispersión de un fotón.
 
-•	Al iniciar la aplicación nos encontramos con la interfaz principal.
-![image](https://user-images.githubusercontent.com/29785115/48922521-e4f5e900-ee6c-11e8-921b-217fef32edba.png)
+Al iniciar la aplicación nos encontramos con la interfaz principal.
 
-•	Podemos iniciar con el botón de información para ver detalles relacionados al tema del que se está hablando y algunos datos interesantes acerca de las longitudes de onda.
-![image](https://user-images.githubusercontent.com/29785115/48922526-ec1cf700-ee6c-11e8-956f-fb5121404e21.png)
+![image](https://user-images.githubusercontent.com/29785115/48926217-9d358880-ee91-11e8-8eb2-2672a9ddc9a5.png)
 
-•	Después podremos hacer clic en el botón de equipo el cual nos mostrará la fecha de creación del proyecto y los integrantes del equipo.
-![image](https://user-images.githubusercontent.com/29785115/48922530-f2ab6e80-ee6c-11e8-8953-f2eee9d1e82d.png)
+Podemos iniciar con el botón de información para ver detalles relacionados al tema del que se está hablando y algunos datos interesantes acerca de las longitudes de onda.
 
-•	Al cliquear en Simulador nos abrirá la calculadora. La entrada de todo el sistema solamente es la longitud de onda y el ángulo de dispersión del fotón para poder obtener toda la información que resultará de estos.
-![image](https://user-images.githubusercontent.com/29785115/48922538-fdfe9a00-ee6c-11e8-974c-95ec49c88f22.png)
+![image](https://user-images.githubusercontent.com/29785115/48926226-a6bef080-ee91-11e8-8a3b-5ad8c0f6091a.png)
 
-•	También tiene dos ejercicios integrados que pueden ser utilizados como ejemplos con sus procedimientos.
-![image](https://user-images.githubusercontent.com/29785115/48922540-048d1180-ee6d-11e8-8d91-5b9d0fc4943c.png)
+Después podremos hacer clic en el botón de equipo el cual nos mostrará la fecha de creación del proyecto y los integrantes del equipo. 
 
-•	Y las fórmulas también forman parte del proyecto para poderlas tener a la mano.
-![image](https://user-images.githubusercontent.com/29785115/48922544-0bb41f80-ee6d-11e8-8ef0-3bc5fe029198.png)
+![image](https://user-images.githubusercontent.com/29785115/48926232-af172b80-ee91-11e8-9ab9-6ec17728f4b1.png)
+
+Al cliquear en Simulador nos abrirá la calculadora. La entrada de todo el sistema solamente es la longitud de onda y el ángulo de dispersión del fotón para poder obtener toda la información que resultará de estos.
+
+![image](https://user-images.githubusercontent.com/29785115/48926238-b5a5a300-ee91-11e8-9130-5297c4247e72.png)
+
+También tiene dos ejercicios integrados que pueden ser utilizados como ejemplos con sus procedimientos.
+
+![image](https://user-images.githubusercontent.com/29785115/48926243-bd654780-ee91-11e8-8a0e-642604e58cbb.png)
+
+Y las fórmulas también forman parte del proyecto para poderlas tener a la mano.
+
+![image](https://user-images.githubusercontent.com/29785115/48926247-c524ec00-ee91-11e8-8cf6-136545809bc5.png)
