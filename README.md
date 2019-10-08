@@ -9,10 +9,6 @@ Podemos iniciar con el botón de información para ver detalles relacionados al 
 
 ![image](https://user-images.githubusercontent.com/29785115/48926226-a6bef080-ee91-11e8-8a3b-5ad8c0f6091a.png)
 
-Después podremos hacer clic en el botón de equipo el cual nos mostrará la fecha de creación del proyecto y los integrantes del equipo. 
-
-![image](https://user-images.githubusercontent.com/29785115/48926232-af172b80-ee91-11e8-9ab9-6ec17728f4b1.png)
-
 Al cliquear en Simulador nos abrirá la calculadora. La entrada de todo el sistema solamente es la longitud de onda y el ángulo de dispersión del fotón para poder obtener su longitud de onda final, sus frecuencias, su cantidad de movimiento, etc...
 
 ![image](https://user-images.githubusercontent.com/29785115/48926238-b5a5a300-ee91-11e8-9130-5297c4247e72.png)
