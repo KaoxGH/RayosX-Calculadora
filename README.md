@@ -1,4 +1,7 @@
 # RayosX-Calculadora
+
+contacto: jorgeandres9623@gmail.com
+
 El siguiente proyecto tiene como objetivo calcular el estado final de un fotón, teniendo solamente como datos de entrada la longitud de onda inicial y el ángulo de dispersión de este.
 
 Al iniciar la aplicación nos encontramos con la interfaz principal.
